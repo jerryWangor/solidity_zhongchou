@@ -78,7 +78,7 @@ module.exports = {
     ropsten: {
         provider: function() {
             // mnemonic表示MetaMask的助记词。 "ropsten.infura.io/v3/33..."表示Infura上的项目id
-            return new HDWalletProvider(mnemonic, "ropsten.infura.io/v3/95e20b26a11e4f9c9dcac71ab3576f7b", 0);   // 1表示第二个账户(从0开始)
+            return new HDWalletProvider(mnemonic, "https://ropsten.infura.io/v3/95e20b26a11e4f9c9dcac71ab3576f7b", 0);   // 1表示第二个账户(从0开始)
         },
         network_id: "*",  // match any network
         gas: 3012388,
