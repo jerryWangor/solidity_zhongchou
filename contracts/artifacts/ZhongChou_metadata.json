@@ -120,7 +120,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"zhongchou/contracts/ZhongChou.sol": "ZhongChou"
+			"contracts/ZhongChou.sol": "ZhongChou"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -134,7 +134,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"zhongchou/contracts/ZhongChou.sol": {
+		"contracts/ZhongChou.sol": {
 			"keccak256": "0xbd8feea33dc23fc34f8902fe1a9abada4db1b2370d02b4de1860b71ccc866982",
 			"license": "MIT",
 			"urls": [
