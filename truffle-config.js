@@ -71,6 +71,16 @@ module.exports = {
     // network_id: 2111,   // This network is yours, in the cloud.
     // production: true    // Treats this network as if it was a public net. (default: false)
     // }
+
+    ropsten: {
+        provider: function() {
+            // mnemonic表示MetaMask的助记词。 "ropsten.infura.io/v3/33..."表示Infura上的项目id
+            return new HDWalletProvider(mnemonic, "ropsten.infura.io/v3/95e20b26a11e4f9c9dcac71ab3576f7b", 0);   // 1表示第二个账户(从0开始)
+        },
+        network_id: "*",  // match any network
+        gas: 3012388,
+        gasPrice: 30000000000
+    },
   },
 
   // Set default mocha options here, use special reporters etc.
