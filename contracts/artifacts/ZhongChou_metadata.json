@@ -1,0 +1,147 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_neederId",
+						"type": "uint256"
+					}
+				],
+				"name": "Contribute",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_addr",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_goal",
+						"type": "uint256"
+					}
+				],
+				"name": "CreateNeeder",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					},
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_neederId",
+						"type": "uint256"
+					}
+				],
+				"name": "GetNeederContent",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_neederId",
+						"type": "uint256"
+					}
+				],
+				"name": "TransferNeederAmount",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {
+				"Contribute(uint256)": {
+					"notice": "捐献money"
+				},
+				"CreateNeeder(address,uint256)": {
+					"notice": "这里理论上只能合约创始人才能创建众筹 会返回一个众筹ID，捐款的时候传哪个ID就给哪个人捐"
+				}
+			},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"zhongchou/contracts/ZhongChou.sol": "ZhongChou"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"zhongchou/contracts/ZhongChou.sol": {
+			"keccak256": "0xbd8feea33dc23fc34f8902fe1a9abada4db1b2370d02b4de1860b71ccc866982",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://f1b0de1cd437c8ca47531ea1b35fbf1d8447ca6aaa64f7aa3523daded5625abd",
+				"dweb:/ipfs/QmZKJUVyE6P3TdjBjdGcDCEiRHzBUECbWW7n68CBeNy4bM"
+			]
+		}
+	},
+	"version": 1
+}
