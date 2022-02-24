@@ -23,6 +23,9 @@
 // const fs = require('fs');
 // const mnemonic = fs.readFileSync(".secret").toString().trim();
 
+var HDWalletProvider = require("truffle-hdwallet-provider");  // 导入模块
+var mnemonic = "actor enough real impulse hurt risk license doll knee domain sphere sentence";  //MetaMask的助记词。 
+
 module.exports = {
   /**
    * Networks define how you connect to your ethereum client and let you set the
