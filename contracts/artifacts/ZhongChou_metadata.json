@@ -13,9 +13,9 @@
 			{
 				"inputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "uint8",
 						"name": "_neederId",
-						"type": "uint256"
+						"type": "uint8"
 					}
 				],
 				"name": "Contribute",
@@ -39,9 +39,9 @@
 				"name": "CreateNeeder",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "uint8",
 						"name": "",
-						"type": "uint256"
+						"type": "uint8"
 					},
 					{
 						"internalType": "uint256",
@@ -65,9 +65,9 @@
 			{
 				"inputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "uint8",
 						"name": "_neederId",
-						"type": "uint256"
+						"type": "uint8"
 					}
 				],
 				"name": "GetNeederContent",
@@ -89,9 +89,9 @@
 			{
 				"inputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "uint8",
 						"name": "_neederId",
-						"type": "uint256"
+						"type": "uint8"
 					}
 				],
 				"name": "TransferNeederAmount",
@@ -108,7 +108,7 @@
 		"userdoc": {
 			"kind": "user",
 			"methods": {
-				"Contribute(uint256)": {
+				"Contribute(uint8)": {
 					"notice": "捐献money"
 				},
 				"CreateNeeder(address,uint256)": {
@@ -135,11 +135,11 @@
 	},
 	"sources": {
 		"contracts/ZhongChou.sol": {
-			"keccak256": "0xbd8feea33dc23fc34f8902fe1a9abada4db1b2370d02b4de1860b71ccc866982",
+			"keccak256": "0xf41f9ecf6dd23b050b8c6959950429ce4ec1ec87344b96aea6e0d08838c9c6b6",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://f1b0de1cd437c8ca47531ea1b35fbf1d8447ca6aaa64f7aa3523daded5625abd",
-				"dweb:/ipfs/QmZKJUVyE6P3TdjBjdGcDCEiRHzBUECbWW7n68CBeNy4bM"
+				"bzz-raw://3e080d06c67df88c470e60556a39ae79798114d11a79f91e835212cdd9dfce73",
+				"dweb:/ipfs/QmQnJ7GKshRWGhhVJBVhGycQkwbFwLfVsM2horDatTsVvu"
 			]
 		}
 	},
